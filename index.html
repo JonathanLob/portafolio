@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+    <h1 class="title">My Portafolio</h1>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+      <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+      <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="column column--left">
+      <!--Profile card-->
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/profile.jpg" alt="" class="card__image">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Jonathan Lopez</h2>
+          <p class="card__subtitle">Diseñador y Programador</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="sccp.jolopez@gmail.com">sccp.jolopez@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel">930797321</a>
+          </div>
+          <p class="card__text">
+            Apasionado por la programación Web, programación de videojuegos y tecnologías,
+            combinando la imaginación con múltiples herramientas
+            Dentro del ámbito tecnológico y así poder crear grandes proyectos.
+          </p>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experience</h2>
+        <div class="experience">
+          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time">
+              Julio 2020 - Marzo 2022
+            </p>
+            <h3 class="experience__job">soporte HelpDesk</h3>
+            <p class="experience__description">HelpDesk, soporte técnico por teléfono y por chat a clientes Amazon
+              España.
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <img src="assets/images/logo2.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time">
+              Agosto 2019 - Enero 2020
+            </p>
+            <h3 class="experience__job">Asesor HelpDesk</h3>
+            <p class="experience__description">Atención Soporte tecnológico HelpDesk para clientes Claro Perú.
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <img src="assets/images/logo3.jpg" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time">
+              Agosto 2018 - Enero 2019
+            </p>
+            <h3 class="experience__job">Asesor HelpDesk</h3>
+            <p class="experience__description">Atención Soporte tecnológico HelpDesk, clientes españoles.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card__hobbies">
+        <h2 class="card__title">Hobbies</h2>
+        <div class="hobbie">
+          <img src="assets/images/hobbie.jpg" alt="Taekwondo">
+          <h3 class="hobbie__title">Taekwondo</h3>
+          <p class="card__text">Apasionado por los deportes, la buena salud física, logre alcanzar
+            el grado de Cinturón Negro primer Dan en Taekwondo WTf, ademas de eso compartí mis
+            Conocimientos en academias de artes marciales y también enseñe en jardín y colegios.
+            Mi pensamiento es que en todo colegio se llegue a enseñar un arte marcial ya que asi
+            se impartirá la disciplina para guiar por el correcto camino del ser humano.
+          </p>
+        </div>
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">wordpress</p>
+            <div class="skills__bar skills__bar--10"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">bootstrap</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Git and GitHub</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Complementos</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Matematicas</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Soporte</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Redes</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Python</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Office</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Word</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">PowerPoint</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Excel</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/proyect1.png" alt="Landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Html</span>
+            <span class="project__tag">#Css</span>
+            <span class="project__tag">#media queries</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="card__title">Página Kareni</h2>
+          <p class="card__text">Mi primera página creada para negocio del ambito artistico y promocional</p>
+          <p class="card__text">Aprendí de forma autodidacta a través de YouTube, en esta página aplique desde cero la
+            creación en HTML, Css, incluido el diseño responsivo, social bar, iconos, colores variados junto con un marco
+            interactivo donde desfilan las distintas imágenes, adicional a ello le coloque un audio musical.
+          </p>
+          <div class="buttons">
+            <a href="" class="button button--primary">Demo</a>
+            <a href="" class="button button--ghost">Code</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
